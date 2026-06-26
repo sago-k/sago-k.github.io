@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>倉</title>
+</head>
+
+<body>
+  <h1>倉（仮）</h1>
+
+  <p>GitHub Pagesで作成した最初のWebページです。</p>
+
+  <h2>About</h2>
+
+  <p>
+    建築設計、構造解析、計算幾何について学んでいます。
+  </p>
+</body>
+</html>
