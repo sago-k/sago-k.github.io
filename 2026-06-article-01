@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>記法それ自体 |考えていること・考えたいこと</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <a href="../index.html" class="site-title"> 倉（仮）</a>
+
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../archive.html">Archive</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="article-container">
+
+    <article>
+      <header class="article-header">
+        <p class="date">2026.06.26</p>
+
+        <h1>記法それ自体</h1>
+
+        <p class="article-lead">
+          図面、楽譜、戯曲は、いずれも何かを実現するための記法である。
+          しかし、その記法自体はどのように評価されうるのか。建築、音楽、演劇と独立して美しさをもつのか。
+        </p>
+      </header>
+
+      <div class="article-body">
+        <p>
+          図面は本来、建築をつくるための指示書である。その意味では、完成した建築に従属するものと考えられる。
+          ただそれだけではない。建築家の設計のための思考のツールとしても描かれ続けている。
+        </p>
+
+        <h2>記法としての美</h2>
+
+        <p>
+          情報を整理し、体系として伝える方法そのものにも、独自の秩序や美しさがある。
+        </p>
+
+        <blockquote>
+          記法は、何かを表すだけでなく、
+          世界の見方そのものを規定する。
+        </blockquote>
+
+        <p>
+          図面を見ることは、建築を見ることとは異なる。
+        </p>
+      </div>
+    </article>
+
+    <nav class="article-navigation">
+      <a href="../archive.html">← 記事一覧へ戻る</a>
+    </nav>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Keiya Sago</p>
+  </footer>
+
+</body>
+</html>
