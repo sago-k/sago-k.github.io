@@ -1,117 +1,69 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
   <meta charset="UTF-8">
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>蔵（仮）</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <header class="site-header">
-    <a class="site-name" href="#home">Keiya Sago</a>
+    <a href="index.html" class="site-title">蔵（仮）</a>
 
     <nav>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#works">Works</a>
-      <a href="#contact">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="about.html">About</a>
     </nav>
   </header>
 
-  <main>
+  <main class="container">
 
-    <section id="home" class="hero">
-      <div>
-        <p class="subtitle">
-          Architecture / Structure / Computational Geometry
-        </p>
+    <section class="intro">
+      <h1>考えていること・考えたいこと</h1>
 
-        <h1>
-          Geometry, Structure<br>
-          and Architectural Design
-        </h1>
+      <p>
+        建築、言葉、構造など。
+      </p>
+    </section>
+
+    <section class="latest">
+      <h2>Latest</h2>
+
+      <article class="article-card">
+        <p class="date">2026.06.26</p>
+
+        <h3>
+          <a href="articles/2026-06-article-01.html">
+            記法それ自体
+          </a>
+        </h3>
 
         <p>
-          幾何学的性質、構造性能、施工性の関係から、
-          自由曲面構造の設計について研究しています。
+          建築/図面、音楽/楽譜、演劇/戯曲などの記法について。
         </p>
-      </div>
+      </article>
 
-    </section>
+      <article class="article-card">
+        <p class="date">2026.06.20</p>
 
+        <h3>
+          <a href="articles/2026-06-article-02.html">
+            構造と形態
+          </a>
+        </h3>
 
-    <section id="about" class="content-section">
-      <h2>About</h2>
-
-      <p>
-        かたちとちから、言葉と意味について。
-      </p>
-    </section>
-
-
-    <section id="research" class="content-section">
-      <h2>Research</h2>
-
-      <article class="project">
-
-
-        <div>
-          <h3>Circle Packing Mesh</h3>
-
-          <p>
-            Circle Packing Meshを用いた曲面構造の形状生成と、
-            双対梁およびパネル構成の構造解析を行っています。
-          </p>
-        </div>
+        <p>
+          かたちとちからの関係。
+        </p>
       </article>
     </section>
 
-
-    <section id="works" class="content-section">
-      <h2>Works</h2>
-
-      <article class="project">
-        <img
-          src="images/design.jpg"
-          alt="建築設計作品の画像"
-        >
-
-        <div>
-          <h3>Graduation Design</h3>
-
-          <p>
-            折り紙と膜テンセグリティ、平面から曲面
-          </p>
-        </div>
-      </article>
-    </section>
-
-
-    <section id="contact" class="content-section">
-      <h2>Contact</h2>
-
-      <p>
-        Email:
-        <a href="mailto:example@example.com">
-          example@example.com
-        </a>
-      </p>
-
-      <p>
-        <a href="https://github.com/ユーザー名">
-          GitHub
-        </a>
-      </p>
-    </section>
+    <p class="archive-link">
+      <a href="archive.html">すべての記事を見る →</a>
+    </p>
 
   </main>
 
