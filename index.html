@@ -1,21 +1,123 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>倉</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>蔵（仮）</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>倉（仮）</h1>
 
-  <p>GitHub Pagesで作成した最初のWebページです。</p>
+  <header class="site-header">
+    <a class="site-name" href="#home">Keiya Sago</a>
 
-  <h2>About</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#works">Works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <p>
-    建築設計、構造解析、計算幾何について学んでいます。
-  </p>
+  <main>
+
+    <section id="home" class="hero">
+      <div>
+        <p class="subtitle">
+          Architecture / Structure / Computational Geometry
+        </p>
+
+        <h1>
+          Geometry, Structure<br>
+          and Architectural Design
+        </h1>
+
+        <p>
+          幾何学的性質、構造性能、施工性の関係から、
+          自由曲面構造の設計について研究しています。
+        </p>
+      </div>
+
+    </section>
+
+
+    <section id="about" class="content-section">
+      <h2>About</h2>
+
+      <p>
+        かたちとちから、言葉と意味について。
+      </p>
+    </section>
+
+
+    <section id="research" class="content-section">
+      <h2>Research</h2>
+
+      <article class="project">
+
+
+        <div>
+          <h3>Circle Packing Mesh</h3>
+
+          <p>
+            Circle Packing Meshを用いた曲面構造の形状生成と、
+            双対梁およびパネル構成の構造解析を行っています。
+          </p>
+        </div>
+      </article>
+    </section>
+
+
+    <section id="works" class="content-section">
+      <h2>Works</h2>
+
+      <article class="project">
+        <img
+          src="images/design.jpg"
+          alt="建築設計作品の画像"
+        >
+
+        <div>
+          <h3>Graduation Design</h3>
+
+          <p>
+            折り紙と膜テンセグリティ、平面から曲面
+          </p>
+        </div>
+      </article>
+    </section>
+
+
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+
+      <p>
+        Email:
+        <a href="mailto:example@example.com">
+          example@example.com
+        </a>
+      </p>
+
+      <p>
+        <a href="https://github.com/ユーザー名">
+          GitHub
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Keiya Sago</p>
+  </footer>
+
 </body>
 </html>
